@@ -1,0 +1,20 @@
+#Board{
+    height: 800px;
+    
+    border: black solid 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.white{
+    height: 99.1px;
+    width: 176px;
+    border: black 0.5px solid;
+    background-color: #f0d9b5;
+}
+.black{
+    height: 99.1px;
+    width: 176px;
+    border: black 0.5px solid;
+    background-color: #b58863;
+}
